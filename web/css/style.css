@@ -168,7 +168,7 @@ h3.cate {
 	margin: 0;
 }
 h4.cate {
-	color: #000;
+	color: #771e61;
 	font-size: 1.3em;
 	padding: 0.6em ;
 	background: #f3f4f4;
@@ -698,10 +698,12 @@ p.m_text {
 	font-size:0.8125em;
 	padding:0.8em 0 0;
 	list-style:none;
-	margin: 0
+	margin-bottom: 0.5em;
 }
 .w_nav li{
 	display: inline-block;
+	font-size: 1.4em;
+	color: #e80b5f;
 }
 .w_nav li a{
 	display: block;
@@ -1764,4 +1766,16 @@ img.banner-bag {
 }
 .img-left-arrow {
 	padding: 0 0 0 6.2em;
+}
+#content .pages {
+  text-align: center;
+  position: relative;
+}
+#content .pages .loadMore {
+  text-align: center;
+  position: relative;
+}
+#content .pages .pagination {
+  text-align: center;
+  position: relative;
 }
