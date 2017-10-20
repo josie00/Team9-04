@@ -209,7 +209,8 @@ ul {
 	text-indent: 1.2em;
 }
 .menu ul li a:hover{
-	background: #1DBAA5;
+	background: #C2627E;
+	color: #fff;
 }
 .menu > li > a:hover, .menu > li > a.active {
 	background:#fff;
@@ -299,7 +300,7 @@ ul.cute li{
 	font-size: 1.1em;
 	color:#fff;
 	padding:0.6em 0.8em;
-	background:#323A45;
+	background:#771e61;
 }
  span.on-get:hover{
 	background: #0D3F84;
@@ -308,7 +309,7 @@ a.now-get{
 	font-size: 1.1em;
 	color:#fff;
 	padding:0.6em 0.8em;
-	background:#323A45;
+	background:#771e61;
 	text-decoration: none;
 }
 a.now-get:hover{
@@ -480,7 +481,7 @@ span.reducedfrom {
 }
 span.actual {
 	font-weight: 500; 
-	color:#1DBAA5;
+	color:#E80C5F;
     font-weight: 700; 
     font-size:1.2em;
 }
@@ -1083,7 +1084,7 @@ ul.face-in-to li a span.facebook-in{
 }
 .footer-bottom-cate h6{
 	font-size: 1.1em;
-	color: #000;
+	color: #E80C5F;
 	margin: 0 0 0.5em;
 	font-weight: 700;
 }
@@ -1113,7 +1114,7 @@ ul.face-in-to li a span.facebook-in{
 	padding: 0em 0;
 }
 .cate-bottom ul li.phone {
-	color:#1DBAA5;
+	color:#000;
 }
 .cate-bottom ul li.phone {
 	padding: 1em 0 1.5em;
