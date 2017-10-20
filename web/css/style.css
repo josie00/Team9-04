@@ -213,11 +213,36 @@ ul {
 	color: #fff;
 }
 .menu > li > a:hover, .menu > li > a.active {
-	background:#fff;
+	background: #C2627E;
+	color: #fff;
 }
 .menu ul.kid-menu li a{
 	border-bottom: none;
 }
+.subitem1 ul li a {	
+	width: 100%;
+	display: block;
+	position: relative;
+	font-size:1.1em;
+	font-weight: 400;
+	color: #000;
+	text-decoration:none;
+	border-bottom: 1px solid #ddd;
+	font-weight:700;
+	line-height: 3.5em;
+	text-indent: 1.2em;
+}
+li.subp{
+	background: #d1cfd3;
+}
+li.subp h5{
+	color: #fff;
+}
+.subp ul li a:hover{
+	background: #C2627E;
+	color: #fff;
+}
+
 ul.kid-menu{
 	padding: 0;
 	margin: 0;	
@@ -233,6 +258,7 @@ ul.kid-menu li.menu-kid-left{
 ul.cute li{
 	background: #fff;
 }
+
 .arrow-img {
 	padding: 0em 0em 0 6.5em;
 }
