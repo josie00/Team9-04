@@ -230,72 +230,76 @@ take more or for a longer time than directed<br>
 
           	   <!---->
 <div class="sub-cate">
-				<div class=" top-nav rsidebar span_1_of_left">
-					
-					<h6>CATEGORIES</h6>
-					<ul class="menu">
-		<li class="item1"><a href="#">Pain Relief<img class="arrow-img" src="images/arrow1.png" alt=""/> </a>
+	<div class=" top-nav rsidebar span_1_of_left">
+		<h3 class="cate">CATEGORIES</h3>
+		<ul class="menu">
+			<li class="item1"><a href="#">Pain Relief<img class="arrow-img" src="images/arrow1.png" alt=""/> </a>
 
-				<li class="subitem2"><a href="product.html"><label><h5>Arthritis Relief</h5></label> </a></li>
-				<li class="subitem2"><a href="product.html"><label><h5>Menstrual Pain Relif</h5></label> </a></li>
-				<li class="subp"><a href="product.html"><label><h5>Migraine Relif</h5></label> </a></li>
-				<li class="subitem2"><a href="product.html"><label><h5>General Pain Relif</h5></label> </a></li>
+				<li class="subitem1"><a href="product.html"><label><h5>Arthritis Relief</h5></label> </a></li>
+				<li class="subitem2"><a href="product.html"><label><h5>Menstrual Pain Relief</h5></label> </a></li>
+				<li class="subp"><a href="product.html"><label><h5>Migraine Relief</h5></label> </a></li>
+				<li class="subitem3"><a href="product.html"><label><h5>General Pain Relif</h5></label> </a></li>
 
-		</li>
-		<li class="item2"><a href="#">Cough, Cold & Flu<img class="arrow-img " src="images/arrow1.png" alt=""/></a>
-			<ul class="cute">
-				<li class="subitem1"><a href="product.html"><label><h5>Chest Rub</h5></label> </a></li>
-				<li class="subitem2"><a href="product.html"><label><h5>Cough Drops</h5></label> </a></li>
-				<li class="subitem3"><a href="product.html"><label><h5>Immune Support</h5></label> </a></li>
-				<li class="subitem4"><a href="product.html"><label><h5>For Children</h5></label> </a></li>
-			</ul>
-		</li>
-		<li class="item3"><a href="#">Personal Care<img class="arrow-img " src="images/arrow1.png" alt=""/> </a>
-			<ul class="cute">
-				<li class="subitem1"><a href="product.html"><label><h5>Oral Health</h5></label> </a></li>
-				<li class="subitem2"><a href="product.html"><label><h5>Eye Care</h5></label> </a></li>
-				<li class="subitem3"><a href="product.html"><label><h5>Feminine Acre</h5></label></a></li>
-			</ul>
-		</li>
-		<li class="item4"><a href="#">First Aid<img class="arrow-img " src="images/arrow1.png" alt=""/></a>
-			<ul class="cute">
-				<li class="subitem1"><a href="product.html"><label><h5>Antibiotic</h5></label> </a></li>
-				<li class="subitem2"><a href="product.html"><label><h5>Bandage</h5></label> </a></li>
-				<li class="subitem3"><a href="product.html"><label><h5>First Aid Kit</h5></label> </a></li>
-			</ul>
-		</li>
-				<li>
-			<ul class="kid-menu">
-				<li><a href="product.html">Allergy</a></li>
-				<li ><a href="product.html">Digestive Health</a></li>
-				<li ><a href="product.html">Sleep Help</a></li>
-			</ul>
-		</li>
-		<ul class="kid-menu ">
+			</li>
+			<li class="item2"><a href="#">Cough, Cold & Flu<img class="arrow-img " src="images/arrow1.png" alt=""/></a>
+				<ul class="cute">
+					<li class="subitem1"><a href="product.html"><label><h5>Chest Rub</h5></label> </a></li>
+					<li class="subitem3"><a href="product.html"><label><h5>Cough Drops</h5></label> </a></li>
+					<li class="subitem2"><a href="product.html"><label><h5>Immune Support</h5></label> </a></li>
+					<li class="subitem3"><a href="product.html"><label><h5>For Children</h5></label> </a></li>
+				</ul>
+			</li>
+			<li class="item3"><a href="#">Personal Care<img class="arrow-img " src="images/arrow1.png" alt=""/> </a>
+				<ul class="cute">
+					<li class="subitem1"><a href="product.html"><label><h5>Oral Health</h5></label> </a></li>
+					<li class="subitem2"><a href="product.html"><label><h5>Eye Care</h5></label> </a></li>
+					<li class="subitem3"><a href="product.html"><label><h5>Feminine Acre</h5></label></a></li>
+				</ul>
+			</li>
+			<li class="item4"><a href="#">First Aid<img class="arrow-img " src="images/arrow1.png" alt=""/></a>
+				<ul class="cute">
+					<li class="subitem1"><a href="product.html"><label><h5>Antibiotic</h5></label> </a></li>
+					<li class="subitem2"><a href="product.html"><label><h5>Bandage</h5></label> </a></li>
+					<li class="subitem3"><a href="product.html"><label><h5>First Aid Kit</h5></label> </a></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="kid-menu">
+					<li><a href="product.html">Allergy</a></li>
+					<li ><a href="product.html">Digestive Health</a></li>
+					<li ><a href="product.html">Sleep Help</a></li>
+				</ul>
+			</li>
+			<ul class="kid-menu ">
 				<li><a href="product.html">Vitamins</a></li>
-				<!--initiate accordion-->
-		<script type="text/javascript">
-			$(function() {
-			    var menu_ul = $('.menu > li > ul'),
-			           menu_a  = $('.menu > li > a');
-			    menu_ul.hide();
-			    menu_a.click(function(e) {
-			        e.preventDefault();
-			        if(!$(this).hasClass('active')) {
-			            menu_a.removeClass('active');
-			            menu_ul.filter(':visible').slideUp('normal');
-			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
-			        } else {
-			            $(this).removeClass('active');
-			            $(this).next().stop(true,true).slideUp('normal');
-			        }
-			    });
 
-			});
-		</script>
-					
-			</div>
-	<div class="clearfix"> </div>
+				<!--contact us  <li class="menu-kid-left"><a href="contact.html">Contact us</a></li>   -->
+			</ul>
+		</ul>
+	</div>
+	<!--initiate accordion-->
+	<script type="text/javascript">
+	$(function() {
+		var menu_ul = $('.menu > li > ul'),
+		menu_a  = $('.menu > li > a');
+		menu_ul.hide();
+		menu_a.click(function(e) {
+			e.preventDefault();
+			if(!$(this).hasClass('active')) {
+				menu_a.removeClass('active');
+				menu_ul.filter(':visible').slideUp('normal');
+				$(this).addClass('active').next().stop(true,true).slideDown('normal');
+			} else {
+				$(this).removeClass('active');
+				$(this).next().stop(true,true).slideUp('normal');
+			}
+		});
+
+	});
+	</script>
+</div>			
+</div>
+<div class="clearfix"> </div>        	         
 </div>
 	<!---->
 		<div class="footer-top">
