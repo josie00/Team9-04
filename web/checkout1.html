@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>UPMC Phamacy</title>
+<title>Big shope A Ecommerce Category Flat Bootstarp Resposive Website Template | Login :: w3layouts</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--theme-style-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -46,7 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="index.html"><img src="images/logo.png" alt=" " /></a>
 					</div>
 					<div class="search">
-						<input type="text" placeholder="(i.e. Advil Pain Reliver)" >
+						<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
 						<input type="submit"  value="SEARCH">
 
 					</div>
@@ -58,7 +58,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><a href="login.html"><span> </span>LOGIN</a></li> |
 								<li ><a href="register.html">SIGNUP</a></li>
 							</ul>
-						<div class="cart"><a href="cart.html"><span> </span>CART</a></div>
+						<div class="cart"><a href="#"><span> </span>CART</a></div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
@@ -100,13 +100,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 														</ul>
 														<br>
 														<div class="content">
-															<div class="row">
-																<div class="col-sm-6 col-md-3">
-																		<label for="*" style="color:red">* Required Fields</label>
-																</div>
-															</div>
-															<!-- /.row -->
-															<br>
 																<div class="row">
 																		<div class="col-sm-6">
 																				<div class="form-group">
@@ -187,13 +180,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 																						<input type="text" class="form-control" id="email" value="">
 																				</div>
 																		</div>
-
+																		<div class="col-sm-6 col-md-3">
+																				<div class="form-group">
+																						<label for="*" style="color:red"> * Required Fields</label>
+																				</div>
+																		</div>
 
 																</div>
 																<!-- /.row -->
-
 														</div>
-														<br><br>
+														<br>
 
 														<div class="box-footer">
 																<div class="pull-left">
@@ -218,13 +214,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												<div class="box-header">
 														<h3>Order Summary</h3>
 												</div>
-												<br>
+												<p class="text-muted" style="font-weight:bold">Shipping and additional costs will calculated based on the values you will enter.</p>
+
 												<div class="table-responsive">
 														<table class="table">
 																<tbody>
 																		<tr>
-																				<td style="font-weight:bold">Order Subtotal</td>
-																				<th>$36.51</th>
+																				<td style="font-weight:bold">Order subtotal</td>
+																				<th>$29.27</th>
 																		</tr>
 																		<tr>
 																				<td style="font-weight:bold">Tax</td>
@@ -232,7 +229,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 																		</tr>
 																		<tr class="total">
 																				<td style="font-weight:bold">Total</td>
-																				<th>$36.51</th>
+																				<th>$29.27</th>
 																		</tr>
 																</tbody>
 														</table>

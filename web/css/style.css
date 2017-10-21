@@ -15,6 +15,9 @@ body a{
 	-ms-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 }
+body u{
+	text-decoration: underline;
+}
 .top-header{
 	background: #771e61;
 	padding: 0.7em 0;
@@ -1778,4 +1781,20 @@ img.banner-bag {
 #content .pages .pagination {
   text-align: center;
   position: relative;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+	margin-right: 0em;
+	margin-left: 3em;
+	margin-top: 1em;
+}
+a.now-wishlist{
+	font-size: 1.1em;
+	color:#fff;
+	padding:0.6em 0.8em;
+	background:#fff;
+	text-decoration: none;
 }
