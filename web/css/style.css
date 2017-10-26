@@ -555,9 +555,7 @@ span.dolor-left-grid{
     background: url(../images/star.png) 0px 0px;
     float:left;
 }
-.rating-star:hover {
-   background: url(../images/star.png) 0 -18px;          
-}
+
 .rating-star1 {
     display: block;
 	width: 20px;
@@ -565,9 +563,7 @@ span.dolor-left-grid{
 	background: url(../images/a-star.png) 0 0px;
 	float: left;
 }
-.rating-star1:hover {
-   background: url(../images/a-star.png) 0 -20px;
-}
+
 /*--single--*/
 .images_3_of_2 {
 	display: block;
