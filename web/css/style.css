@@ -987,6 +987,15 @@ a.forgot {
 	-o-transition: 0.5s all;
 	clear: both;
 }
+.already-have-account a {
+	font-size: 1em;
+	padding-bottom: 5px;
+	margin-top: 4em;
+	font-weight:600;
+}
+.already-have-account h3 :hover{
+	text-decoration: underline;
+}
 .checkbox i {
 	position: absolute;
 	bottom: 5px;
