@@ -912,6 +912,13 @@ p.m_text {
 	font-size:0.9em;
 	padding:10px;
 }
+.login-right input[type="password"] {
+	border: 1px solid #DDDBDB;
+	outline-color:#fb4d01;
+	width: 96%;
+	font-size:0.9em;
+	padding:10px;
+}
 .login-right input[type="submit"] {
 	background:#771e61;
 	color: #FFF;
@@ -948,6 +955,14 @@ a.forgot {
 	text-transform: uppercase;
 }
 .register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+	border: 1px solid #EEE;
+	outline-color:#771e61;
+	width: 85%;
+	font-size: 1em;
+	padding: 0.5em;
+	margin: 0.5em 0;
+}
+.register-bottom-grid input[type="password"] {
 	border: 1px solid #EEE;
 	outline-color:#771e61;
 	width: 85%;
