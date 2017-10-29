@@ -2086,7 +2086,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #1B242F;
   border-color: #357ebd;
 }
-.btn-primary:hover,
+.btn-info-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
@@ -2165,7 +2165,7 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
+  background-color: #771e61;
   border-color: #46b8da;
 }
 .btn-info:hover,

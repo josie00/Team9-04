@@ -19,8 +19,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<!--//fonts-->
 	<script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 	<script src="js/jquery.etalage.min.js"></script>
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+
+
 	<script>
 	jQuery(document).ready(function($){
 
@@ -37,7 +43,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	});
 	</script>
-
+	<div class="modal fade" id="cart-modal" tabindex="-1" role="dialog" aria-labelledby="Cart" aria-hidden="true">
+			 <div class="modal-dialog modal-sm">
+					 <div class="modal-content">
+							 <div class="modal-header">
+									 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									 <h4 class="modal-title" id="Cart">Added to Cart!</h4>
+							 </div>
+							 <div class="modal-body">
+									 <form action="basket.html" method="post">
+											 <p class="text-center">
+													 <button class="btn btn-primary"><i class="fa fa-shopping-cart"></i>View Cart</button>
+											 </p>
+									 </form>
+									 <p class="text-center text-muted"><a href="product-aspirin.html"><strong>Continue Shopping</strong></a></p>
+							 </div>
+					 </div>
+			 </div>
+	 </div>
 </head>
 <body>
 	<!--header-->
@@ -145,12 +168,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 					<div class="col-sm-4">
-						<a class="now-get get-cart-in" href="#">ADD TO CART</a>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">ADD TO CART</button>
+
 					</div>
 					<div class="col-sm-4">
-						<a class="now-get get-cart-in" href="cart.html">BUY NOW</a>
+						<button type="button" class="btn btn-info btn-lg" href="cart.html">BUY NOW</button>
 					</div>
 				</div>
+
+
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal" role="dialog">
+	 <div class="modal-dialog">
+
+		 <!-- Modal content-->
+		 <div class="modal-content">
+			 <div class="modal-header">
+				 <button type="button" class="close" data-dismiss="modal">&times;</button>
+				 <h4 class="modal-title">Your Cart</h4>
+			 </div>
+			 <div class="modal-body">
+				 <p>Some text in the modal.</p>
+			 </div>
+			 <div class="modal-footer">
+				 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			 </div>
+		 </div>
+
+	 </div>
+ </div>
 				<br>
 
 
