@@ -347,7 +347,7 @@ ul.cute li{
 	background:#771e61;
 }
  span.on-get:hover{
-	background: #0D3F84;
+	background: #e80c5e;
 }
 a.now-get{
 	font-size: 1.1em;
@@ -396,7 +396,7 @@ ul.wmuSliderPagination {
   	-o-border-radius: 30px;
   	-ms-border-radius: 30px;
 }
-.wmuSliderPagination a.wmuActive {
+.wmuSliderPagination a.wmu {
 	background:#989CA2;
 }
 a.banner-matter{
@@ -738,11 +738,12 @@ p.m_text {
 .content_box-grid {
 	margin-top: 2em;
 	height: 20em;
+
 }
 .product-grid{
 	float: left;
 	width: 33.333%;
-	height:25em;
+	height:23em;
 }
 .left-grid-view {
    overflow: hidden;
@@ -794,15 +795,6 @@ p.m_text {
 	top: 0px;
 	left: 0;
 	outline: none;
-}
-.info-btn {
-   	display: block;
-	text-indent: -9999px;
-	width:2em;
-	height: 1em;
-	top: 0px;
-	left: 0px;
-	right: 15em;
 }
 /*--product--*
 /*--contact--*/
@@ -1818,6 +1810,7 @@ img.banner-bag {
 #content .pages .pagination {
   text-align: center;
   position: relative;
+  padding: 1em;
 }
 .left{
 	float:left;
@@ -1827,13 +1820,4 @@ img.banner-bag {
 	margin-right: 0em;
 	margin-left: 3em;
 	margin-top: 1em;
-}
-a.now-wishlist{
-	font-size: 1.1em;
-	color:#fff;
-	padding:0.6em 0.8em;
-	background:#fff;
-	text-decoration: none;
-}
-cursor: pointer;
 }
