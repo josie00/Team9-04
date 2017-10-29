@@ -8,6 +8,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 	<title>UPMC Pharmacy</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -78,7 +80,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h2>Search Result for "Headache"</h2>
 					</br>
 					<div class="panel panel-default">
-						<div class="panel-body">Showing <b>9</b> of <b>35</b> products
+						<div class="panel-body" style="margin-left:2em;">Showing <b>9</b> of <b>35</b> products
+								<div style="float: right; margin-right:3em;">
+									Go to page: 
+											<a href="#">&laquo;</a>
+
+											1   <a href="#">2   
+										</a><a href="#">&raquo;</a>
+								</div>
 						</div>
 					</div>
 
@@ -86,14 +95,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 					<ul class="w_nav">
 
-						<li><b>Sort by :  </b></li>
-						<li><a class="active" href="#">popular</a></li> |
-						<li><a href="#">Newest </a></li> |
-						<li><a href="#">Top Rated </a></li> |
-						<li><a href="#">price Low to High </a></li> |
-						<li><a href="#">price Hight to Low </a></li>
-						<div class="clearfix"> </div>
-						<div class="clearfix"> </div>
+						<div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sort by
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+									<li><a href="#">Top Rated</a></li>
+									<li><a href="#">Most Popular</a></li>
+									<li><a href="#">Price Low to High</a></li>
+									<li><a href="#">Price High to Low</a></li>
+									<li><a href="#">A - Z</a></li>
+								</br>
+								<li><a href="#">Z - A</a></li>
+							</ul>
+						</div>
 					</ul>
 					<div class="clearfix"> </div>
 				</div>
@@ -105,13 +119,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="left-grid-view grid-view-left">
 							<img src="images/pic13.jpg" class="img-responsive watch-right" alt=""/>
 							<div class="mask">
-								<div class="info">Quick View</div>
+								<div class="info"></div>
 							</div>
 						</a>
 					</div>
-					<h4><a href="#"> Duis autem</a></h4>
-					<p>It is a long established fact that a reader</p>
-					Rs. 499
+					<h4><a href="#">   Advil Pain Relief</a></h4>
+					<p>  Ibuprofen Tablets, 200 mg</p>
+					<span class="actual">$8.99</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 				</div>
 			</div>
 			<div class="  product-grid">
@@ -119,13 +134,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="left-grid-view grid-view-left">
 						<img src="images/pic2.jpg" class="img-responsive watch-right" alt=""/>
 						<div class="mask">
-							<div class="info">Quick View</div>
+							<div class="info"></div>
 						</div>
 					</a>
 				</div>
-				<h4><a href="#"> Duis autem</a></h4>
-				<p>It is a long established fact that a reader</p>
-				Rs. 499
+				<h4><a href="#"> Bayer Aspirin</a></h4>
+				<p>Low Dose, 300 Enteric</p>
+<span class="actual">$6.5</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 			</div>
 		</div>
 		<div class="  product-grid">
@@ -137,9 +153,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</a>
 			</div>
-			<h4><a href="#"> Duis autem</a></h4>
-			<p>It is a long established fact that a reader</p>
-			Rs. 499
+			<h4><a href="#"> Aleve Liquid Gels</a></h4>
+			<p>Naproxen Sodium, 220mg</p>
+<span class="actual">$14.24</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 		</div>
 	</div>
 	<div class="  product-grid">
@@ -151,9 +168,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</a>
 		</div>
-		<h4><a href="#"> Duis autem</a></h4>
-		<p>It is a long established fact that a reader</p>
-		Rs. 499
+		<h4><a href="#"> Headache Relief</a></h4>
+		<p>Extra Strength, 24 Tablets</p>
+		<span class="actual">$7.5</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 	</div>
 </div>
 <div class="  product-grid">
@@ -165,9 +183,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</a>
 	</div>
-	<h4><a href="#"> Duis autem</a></h4>
-	<p>It is a long established fact that a reader</p>
-	Rs. 499
+	<h4><a href="#"> Tylenol Ultra Pain Relief</a></h4>
+	<p>20 OZ</p>
+<span class="actual">$12</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 </div>
 </div>
 <div class="  product-grid">
@@ -179,9 +198,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</a>
 	</div>
-	<h4><a href="#"> Duis autem</a></h4>
-	<p>It is a long established fact that a reader</p>
-	Rs. 499
+	<h4><a href="#"> Aspirin</a></h4>
+	<p>20 Tablets</p>
+<span class="actual">$6.5</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 </div>
 </div>
 <div class="  product-grid">
@@ -193,9 +213,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</a>
 	</div>
-	<h4><a href="#"> Duis autem</a></h4>
-	<p>It is a long established fact that a reader</p>
-	Rs. 499
+	<h4><a href="#"> Goody's Extra Strength</a></h4>
+	<p>Aspirin Headache Powders</p>
+<span class="actual">$7.99</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 </div>
 </div>
 <div class="  product-grid">
@@ -207,9 +228,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</a>
 	</div>
-	<h4><a href="#"> Duis autem</a></h4>
-	<p>It is a long established fact that a reader</p>
-	Rs. 499
+	<h4><a href="#"> Tiger Balm Oniment</a></h4>
+	<p>Extra Strength, 10g</p>
+<span class="actual">$5.45</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
 </div>
 </div>
 <div class=" product-grid">
@@ -221,12 +243,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</a>
 	</div>
-	<h4><a href="#"> Duis autem</a></h4>
-	<p>It is a long established fact that a reader</p>
-	Rs. 499
+	<h4><a href="#"> Migraine Headache Relief</a></h4>
+	<p>Value Pack, 60 Tabelts</p>
+<span class="actual">$12.55</span>
+					<button type="button" class="btn btn-default">Add to Cart</button>
+</div>
 </div>
 
-</div>
 <div class="clearfix"> </div>
 <div class="pages">
 
