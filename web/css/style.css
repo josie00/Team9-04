@@ -752,8 +752,8 @@ p.m_text {
 .left-grid-view .mask,.left-grid-view .content {
    position: absolute;
 	overflow: hidden;
-	top: 100px;
-	left: 80px;
+	top: 0px;
+	left: 55px;
 }
 .grid-view-left img {
    -webkit-transition: all 0.3s ease-in-out;
@@ -789,8 +789,20 @@ p.m_text {
    display: block;
 	background: url(../images/label_new.png) no-repeat;
 	text-indent: -9999px;
-	width: 75px;
-	height: 75px;
+	width:20em;
+	height: 30em;
+	top: 0px;
+	left: 0;
+	outline: none;
+}
+.info-btn {
+   	display: block;
+	text-indent: -9999px;
+	width:2em;
+	height: 1em;
+	top: 0px;
+	left: 0px;
+	right: 15em;
 }
 /*--product--*
 /*--contact--*/
@@ -1322,8 +1334,8 @@ padding: 0 0 0 4.7em;
 }
 
 .left-grid-view .mask, .left-grid-view .content {
-	top: 205px;
-	left: 142px;
+	top: 0px;
+	left: 0px;
 }
 .arrow-img {
 	padding: 0em 0em 0 3.5em;
