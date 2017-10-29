@@ -19,6 +19,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<!--//fonts-->
 	<script src="js/jquery.min.js"></script>
+
+
+
   <script src="js/bootstrap.min.js"></script>
 
 	<script src="js/jquery.etalage.min.js"></script>
@@ -43,24 +46,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	});
 	</script>
-	<div class="modal fade" id="cart-modal" tabindex="-1" role="dialog" aria-labelledby="Cart" aria-hidden="true">
-			 <div class="modal-dialog modal-sm">
-					 <div class="modal-content">
-							 <div class="modal-header">
-									 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									 <h4 class="modal-title" id="Cart">Added to Cart!</h4>
-							 </div>
-							 <div class="modal-body">
-									 <form action="basket.html" method="post">
-											 <p class="text-center">
-													 <button class="btn btn-primary"><i class="fa fa-shopping-cart"></i>View Cart</button>
-											 </p>
-									 </form>
-									 <p class="text-center text-muted"><a href="product-aspirin.html"><strong>Continue Shopping</strong></a></p>
-							 </div>
-					 </div>
-			 </div>
-	 </div>
 </head>
 <body>
 	<!--header-->
@@ -189,10 +174,69 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 <h4 class="modal-title">Your Cart</h4>
 			 </div>
 			 <div class="modal-body">
-				 <p>Some text in the modal.</p>
+				 <div class="table-responsive">
+						 <table class="table">
+								 <thead>
+										 <tr>
+												 <th colspan="2">Product</th>
+												 <th>Quantity</th>
+												 <th>Price</th>
+												 <th>Discount</th>
+												 <th colspan="2">Total</th>
+										 </tr>
+								 </thead>
+								 <tbody>
+										 <tr>
+												 <td>
+														 <a href="product-aspirin.html">
+																 <img src="images/sh.jpg" alt="White Blouse Armani">
+														 </a>
+												 </td>
+												 <td><a href="product-aspirin.html">Adivel Pain Reliever Tablets 200mg</a>
+												 </td>
+												 <td>
+														 <input type="number" value="2" class="form-control" min="1">
+												 </td>
+												 <td>$13.89</td>
+												 <td>$0.00</td>
+												 <td>$27.78</td>
+												 <td><a href="#"><img src = "images/remove.jpg"></a>
+												 </td>
+										 </tr>
+										 <tr>
+												 <td>
+														 <a href="product-aspirin.html">
+																 <img src="images/picVic.jpg" alt="Black Blouse Armani">
+														 </a>
+												 </td>
+												 <td><a href="product-aspirin.html">Vicks NyQuil Severe Cold & Flu</a>
+												 </td>
+												 <td>
+														 <input type="number" value="1" min="1" class="form-control">
+												 </td>
+												 <td>$8.73</td>
+												 <td>$0.00</td>
+												 <td>$8.73</td>
+												 <td><a href="#"><img src = "images/remove.jpg"></a>
+												 </td>
+										 </tr>
+								 </tbody>
+								 <tfoot>
+										 <tr>
+												 <th colspan="5">Total</th>
+												 <th colspan="2">$36.51</th>
+										 </tr>
+								 </tfoot>
+						 </table>
+
+				 </div>
+				 <!-- /.table-responsive -->
+
+
 			 </div>
 			 <div class="modal-footer">
-				 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				 <span class="form-control-static pull-left"><b>Subtotal: $36.51</b></span>
+				 <button type="button" class="btn btn-info" href="cart.html">BUY NOW</button>
 			 </div>
 		 </div>
 
