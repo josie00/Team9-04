@@ -2039,6 +2039,8 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
+  float:right;
+  margin-right: 4em;
   color: #333;
   background-color: #fff;
   border-color: #ccc;
