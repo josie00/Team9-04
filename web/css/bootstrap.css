@@ -2083,8 +2083,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #1B242F;
-  border-color: #357ebd;
+  background-color: #771e61;
+  border-color: #771e61;
 }
 .btn-info-primary:hover,
 .btn-primary:focus,
@@ -3575,7 +3575,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #1B242F;
+  background-color: #771e61;
 }
 .nav-stacked > li {
   float: none;
