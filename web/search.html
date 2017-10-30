@@ -78,7 +78,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul class="login">
 						<li><a href="login.html"><span> </span>Hi Josie</a> | <a href="index.html">LOGOUT</a></li>
 					</ul>
-					<div><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:21px;color:#f97e76;"></i> CART  <span class="badge">2</span></a></div>
+					<div data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" style="font-size:21px;color:#f97e76;"></i>   CART  <span class="badge">2</span></div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
@@ -142,7 +142,63 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h4><a href="#">   Advil Pain Relief</a></h4>
 					<p>  Ibuprofen Tablets, 200 mg</p>
 					<span class="actual">$8.99</span>
-					<button type="button" class="btn btn-default">Add to Cart</button>
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Add to Cart</button>
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Your Cart</h4>
+							</div>
+							<div class="modal-body">
+								<div class="table-responsive">
+										<table class="table">
+												<thead>
+														<tr>
+																<th colspan="2">Product</th>
+																<th>Quantity</th>
+																<th>Price</th>
+																<th>Discount</th>
+																<th colspan="2">Total</th>
+														</tr>
+												</thead>
+												<tbody>
+														<tr>
+																<td>
+																		<a href="product-aspirin.html">
+																				<img src="images/sh.jpg" alt="White Blouse Armani">
+																		</a>
+																</td>
+																<td><a href="product-aspirin.html">Adivel Pain Reliever Tablets 200mg</a>
+																</td>
+																<td>
+																		<input type="number" value="2" class="form-control" min="1">
+																</td>
+																<td>$13.89</td>
+																<td>$0.00</td>
+																<td>$27.78</td>
+																<td><a href="#"><img src = "images/remove.jpg"></a>
+																</td>
+														</tr>
+												</tbody>
+										</table>
+
+								</div>
+								<!-- /.table-responsive -->
+
+
+							</div>
+							<div class="modal-footer">
+								<span class="form-control-static pull-left"><b>Subtotal: $27.78</b></span>
+								 <a href ="cart.html"><button type="button" class="btn btn-info btn-lg">BUY NOW</button></a>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
 			<div class="  product-grid">
