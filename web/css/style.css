@@ -184,6 +184,17 @@ h5.cate {
 	margin-bottom: 0.5em;
 
 }
+p.cate a{
+	color: #771e61;
+	padding: 0.5em;
+	font-size: 1em;
+}
+p.cate a:hover{
+	color: #e80b5f;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
 
 /*----*/
 ul.kid-menu{
