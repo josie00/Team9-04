@@ -241,6 +241,34 @@ ul {
 	background: #C2627E;
 	color: #fff;
 }
+p.menu {
+	width: 100%;
+	background: #f5f5f5;
+	display: block;
+	position: relative;
+	font-size:1em;
+	color: #000;
+	text-decoration:none;
+	border-bottom: 1px solid #ddd;
+	line-height: 2em;
+	text-indent: 1.2em;
+}
+p.menu a{
+	width: 100%;
+	background: #fff;
+	display: block;
+	position: relative;
+	font-size:1em;
+	color: #000;
+	text-decoration:none;
+	border-bottom: 1px solid #ddd;
+	line-height: 2em;
+	text-indent: 1.2em;
+}
+p.menu a:hover{
+	background: #C2627E;
+	color: #fff;
+}
 .menu > li > a:hover, .menu > li > a.active {
 	background: #C2627E;
 	color: #fff;
